@@ -96,8 +96,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [https://merziz.vercel.app/](https://merziz.vercel.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@MostafaKHaledSarhan](https://www.frontendmentor.io/profile/MostafaKHaledSarhan)
+- Frontend Mentor - [@MostafaKHaledSarhan](https://www.frontendmentor.io/profile/MostafaKHaledSarhan)
+- Facebook - [https://www.facebook.com/mostafakhaledsarhann](https://www.facebook.com/mostafakhaledsarhann)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
