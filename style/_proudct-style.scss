@@ -1,0 +1,114 @@
+.product-box {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+
+  &__img{
+    background-image: url(../images/image-product-desktop.jpg);
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 550px;
+    height: 450px;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background-color: $White;
+  } 
+
+  &__content {
+    margin: 33px 32px;
+
+    .sup-title {
+      font-family: 'Montserrat', sans-serif;
+      color: $Darkgrayishblue;
+      letter-spacing: 4px;
+      font-size: 14px;
+    }
+
+    .title {
+      font-size: 35px;
+      font-family: 'Fraunces', serif;
+      color: $Verydarkblue;
+    }
+
+    .description {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      color: $Darkgrayishblue;
+    }
+
+    .price {
+      font-family: 'Fraunces', serif;
+      font-size: 40px;
+      color: $Darkcyan;
+    }
+
+    .price-del {
+      font-size: 14px;
+      color: $Darkgrayishblue;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .btn-buy {
+        position: relative;
+        background-color: $Darkcyan;
+        align-items: center;
+        padding: 12px 50px;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+        margin-top: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+      .cart-icon {
+       color: $White;
+       text-align: center;
+      }
+
+      .title {
+        color: $White;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        padding-left: 10px;
+        padding-top: 6px;
+      }
+    }
+  }
+
+  .btn-buy:hover {
+    background-color: $DarkcyanHover;
+  }
+}
+
+
+.attribution {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  
+  font-family: 'Montserrat', sans-serif;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}

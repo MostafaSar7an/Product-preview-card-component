@@ -1,0 +1,31 @@
+@media (max-width: 1110px) {
+  .product-box {
+    display: grid;
+    width: 300px;
+    .product-box__img {
+      background-image: url(../images/image-product-mobile.jpg);
+      background-size: cover;
+      width: 300px;
+      height: 230px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-bottom-left-radius: 0;
+    }
+
+    .container {
+      width: 300px;
+    }
+  }
+  .btn-buy {
+    .btn-content {
+      width: 100%;
+      align-items: center;
+      padding-left: 15px;
+    }
+  }
+  .margen-bottom {
+    margin-top:200px;
+    width: 100%;
+    display: block;
+  }
+} 
